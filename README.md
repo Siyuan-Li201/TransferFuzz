@@ -8,11 +8,14 @@ We have enhanced the code and documentation to automate all steps:
 - **Trace Guided Fuzzing**: We wrap the modified code parts in macro definitions, enabling easy migration to new fuzzing technologies.
 - **Crash Classification**. We wrote a shell script to automatically determine whether the fuzzing process is finished by viewing the crash address through GDB.
 
+<br><br>
 
 ## 1. Introduction
 - code: The sourcecode of TransferFuzzt
 - bin: The 76 binaries used in the paper (along with two .so file).
 - poc: The 53 POCs of the 15 CVE vulnerabilities.
+
+<br><br>
 
 ## 2. Reproduction of the veridied vulnerability code
 
@@ -76,9 +79,10 @@ We have enhanced the code and documentation to automate all steps:
 52. poppler-2017-18267: poppler @@
 53. xpdf-2017-18267: xpdf @@
 
+<br><br>
 
 ## 3. Reproduction of the Fuzzing process
-
+<br>
 
 ### 3.1 Build 
 
@@ -102,7 +106,7 @@ You can ignore error messages when executing "make" commands in `/transferfuzz/l
 4 make clean all
 ```
 
-
+<br>
 
 ### 3.2 Have a quick start
 
@@ -137,7 +141,7 @@ We use another binary *objdump* as an example too to demonstrate the usage:
 1 ./auto_verify.sh /data/bin/binutils_2.26/objdump "-t -C poc" /result/objdump-2016-4487/crashes "cplus-dem.c:4319"
 ```
 
-
+<br>
 
 ### 3.3 Full process
 
@@ -181,7 +185,7 @@ put the `cve-2016-10095-keybytes.txt` to `/transferfuzz/scripts/fuzz_dict/` and 
 2 ./auto_verify.sh /transferfuzz/scripts/evaluation/tiffcmp-2016-10095/obj-dist/tools/tiffcmp "poc poc" ./transferfuzz/scripts/evaluation/tiffcmp-2016-10095/obj-dist/out/crashes "tif_dir.c:1056"
 ```
 
-
+<br><br>
 
 ## 4. Verify a new vulnerability
 
@@ -191,7 +195,7 @@ put the `cve-2016-10095-keybytes.txt` to `/transferfuzz/scripts/fuzz_dict/` and 
 - Run **Trace Guided Fuzzing** for the target binary.
 - Run the **Auto crash classification** to check vulnerability propagation.
 
-
+<br><br>
 
 ## 5. Migrate TransferFuzz to new fuzzing technology instead of SelectFuzz
 
