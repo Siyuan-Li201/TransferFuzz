@@ -82,7 +82,6 @@ We have enhanced the code and documentation to automate all steps:
 <br><br>
 
 ## 3. Reproduction of the Fuzzing process
-<br>
 
 ### 3.1 Build 
 
