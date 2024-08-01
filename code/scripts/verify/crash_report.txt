@@ -1,0 +1,54 @@
+Testing ../evaluation/tiffsplit-2016-10095/obj-dist/out/crashes/README.txt
+[Inferior 1 (process 228088) exited normally]
+
+
+Testing ../evaluation/tiffsplit-2016-10095/obj-dist/out/crashes/id:000000,197,sig:11,src:000001,op:havoc,rep:2
+
+Program received signal SIGSEGV, Segmentation fault.
+0x000000000040b8eb in _TIFFVGetField (tif=0x2684010, tag=293, ap=0x7ffd13354d00) at ../../libtiff/tif_dir.c:1056
+1056							*va_arg(ap, void **) = tv->value;
+#0  0x000000000040b8eb in _TIFFVGetField (tif=0x2684010, tag=293, ap=0x7ffd13354d00) at ../../libtiff/tif_dir.c:1056
+#1  0x0000000000404d0b in TIFFVGetField (tif=0x2684010, tag=293, ap=0x7ffd13354d00) at ../../libtiff/tif_dir.c:1174
+#2  0x0000000000404b20 in TIFFGetField (tif=0x2684010, tag=293) at ../../libtiff/tif_dir.c:1158
+#3  0x0000000000402cbb in tiffcp (in=0x2684010, out=0x2684bb0) at ../../tools/tiffsplit.c:192
+#4  0x00000000004023ce in main (argc=2, argv=0x7ffd13355018) at ../../tools/tiffsplit.c:89
+
+
+Testing ../evaluation/tiffsplit-2016-10095/obj-dist/out/crashes/id:000001,12620,sig:11,src:000035+000056,op:splice,rep:4
+
+Program received signal SIGSEGV, Segmentation fault.
+0x000000000040b8eb in _TIFFVGetField (tif=0x1d0c010, tag=292, ap=0x7ffde92933e0) at ../../libtiff/tif_dir.c:1056
+1056							*va_arg(ap, void **) = tv->value;
+#0  0x000000000040b8eb in _TIFFVGetField (tif=0x1d0c010, tag=292, ap=0x7ffde92933e0) at ../../libtiff/tif_dir.c:1056
+#1  0x0000000000404d0b in TIFFVGetField (tif=0x1d0c010, tag=292, ap=0x7ffde92933e0) at ../../libtiff/tif_dir.c:1174
+#2  0x0000000000404b20 in TIFFGetField (tif=0x1d0c010, tag=292) at ../../libtiff/tif_dir.c:1158
+#3  0x0000000000402c85 in tiffcp (in=0x1d0c010, out=0x1d0d0c0) at ../../tools/tiffsplit.c:191
+#4  0x00000000004023ce in main (argc=2, argv=0x7ffde92936f8) at ../../tools/tiffsplit.c:89
+
+
+Testing ../evaluation/tiffsplit-2016-10095/obj-dist/out/crashes/id:000002,15258,sig:11,src:000039,op:havoc,rep:2
+
+Program received signal SIGSEGV, Segmentation fault.
+0x000000000040b8eb in _TIFFVGetField (tif=0x1193010, tag=293, ap=0x7ffe0118b810) at ../../libtiff/tif_dir.c:1056
+1056							*va_arg(ap, void **) = tv->value;
+#0  0x000000000040b8eb in _TIFFVGetField (tif=0x1193010, tag=293, ap=0x7ffe0118b810) at ../../libtiff/tif_dir.c:1056
+#1  0x000000000044a312 in LogLuvVGetField (tif=0x1193010, tag=293, ap=0x7ffe0118b810) at ../../libtiff/tif_luv.c:1619
+#2  0x0000000000404d0b in TIFFVGetField (tif=0x1193010, tag=293, ap=0x7ffe0118b810) at ../../libtiff/tif_dir.c:1174
+#3  0x0000000000404b20 in TIFFGetField (tif=0x1193010, tag=293) at ../../libtiff/tif_dir.c:1158
+#4  0x0000000000402cbb in tiffcp (in=0x1193010, out=0x1193c70) at ../../tools/tiffsplit.c:192
+#5  0x00000000004023ce in main (argc=2, argv=0x7ffe0118bb28) at ../../tools/tiffsplit.c:89
+
+
+Testing ../evaluation/tiffsplit-2016-10095/obj-dist/out/crashes/id:000003,16348,sig:11,src:000039,op:havoc,rep:2
+
+Program received signal SIGSEGV, Segmentation fault.
+0x000000000040b8eb in _TIFFVGetField (tif=0x6b6010, tag=292, ap=0x7ffc6fbc87b0) at ../../libtiff/tif_dir.c:1056
+1056							*va_arg(ap, void **) = tv->value;
+#0  0x000000000040b8eb in _TIFFVGetField (tif=0x6b6010, tag=292, ap=0x7ffc6fbc87b0) at ../../libtiff/tif_dir.c:1056
+#1  0x000000000044a312 in LogLuvVGetField (tif=0x6b6010, tag=292, ap=0x7ffc6fbc87b0) at ../../libtiff/tif_luv.c:1619
+#2  0x0000000000404d0b in TIFFVGetField (tif=0x6b6010, tag=292, ap=0x7ffc6fbc87b0) at ../../libtiff/tif_dir.c:1174
+#3  0x0000000000404b20 in TIFFGetField (tif=0x6b6010, tag=292) at ../../libtiff/tif_dir.c:1158
+#4  0x0000000000402c85 in tiffcp (in=0x6b6010, out=0x6b6c90) at ../../tools/tiffsplit.c:191
+#5  0x00000000004023ce in main (argc=2, argv=0x7ffc6fbc8ac8) at ../../tools/tiffsplit.c:89
+
+

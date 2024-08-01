@@ -1,0 +1,1 @@
+main,tiffcp,TIFFGetField,TIFFVGetField,_TIFFVGetField

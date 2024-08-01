@@ -1,0 +1,43 @@
+tiffcp
+find RTN for function: tiffcp
+Memory read at 72123a6f4fbb in function _dl_rtld_di_serinfo matches 8-byte sequence starting at offset 680 in fileBytes: 90 10 80 8 10 21 14 b 
+Memory read at 72123a6f4fbb in function _dl_rtld_di_serinfo matches 8-byte sequence starting at offset 680 in fileBytes: 90 10 80 8 10 21 14 b 
+Memory read at 72123a7075e4 in function realloc matches 16-byte sequence starting at offset 1840 in fileBytes: 0 6c 69 62 74 69 66 66 2e 73 6f 2e 35 0 5f 49 
+Memory read at 72123a7075e4 in function realloc matches 16-byte sequence starting at offset 1840 in fileBytes: 0 6c 69 62 74 69 66 66 2e 73 6f 2e 35 0 5f 49 
+Memory read at 72123a7075e4 in function realloc matches 16-byte sequence starting at offset 1840 in fileBytes: 0 6c 69 62 74 69 66 66 2e 73 6f 2e 35 0 5f 49 
+Memory read at 72123a7075e4 in function realloc matches 16-byte sequence starting at offset 1840 in fileBytes: 0 6c 69 62 74 69 66 66 2e 73 6f 2e 35 0 5f 49 
+Memory read at 72123a7074a4 in function realloc matches 13-byte sequence starting at offset 2104 in fileBytes: 54 49 46 46 47 65 74 46 69 65 6c 64 0 
+Memory read at 72123a7074a4 in function realloc matches 13-byte sequence starting at offset 2104 in fileBytes: 54 49 46 46 47 65 74 46 69 65 6c 64 0 
+Memory read at 72123a7074a8 in function realloc matches 16-byte sequence starting at offset 2096 in fileBytes: 56 65 72 73 69 6f 6e 0 54 49 46 46 47 65 74 46 
+Memory read at 72123a7074a8 in function realloc matches 16-byte sequence starting at offset 2096 in fileBytes: 56 65 72 73 69 6f 6e 0 54 49 46 46 47 65 74 46 
+Memory read at 72123a7074d0 in function realloc matches 13-byte sequence starting at offset 2104 in fileBytes: 54 49 46 46 47 65 74 46 69 65 6c 64 0 
+Memory read at 72123a7074d0 in function realloc matches 13-byte sequence starting at offset 2104 in fileBytes: 54 49 46 46 47 65 74 46 69 65 6c 64 0 
+Memory read at 72123a70750a in function realloc matches 16-byte sequence starting at offset 2112 in fileBytes: 69 65 6c 64 0 5f 54 49 46 46 6d 61 6c 6c 6f 63 
+Memory read at 72123a70750a in function realloc matches 16-byte sequence starting at offset 2112 in fileBytes: 69 65 6c 64 0 5f 54 49 46 46 6d 61 6c 6c 6f 63 
+Memory read at 72123a706ac6 in function realloc matches 8-byte sequence starting at offset 2454 in fileBytes: 4c 49 42 54 49 46 46 5f 
+Memory read at 72123a706ac6 in function realloc matches 8-byte sequence starting at offset 2454 in fileBytes: 4c 49 42 54 49 46 46 5f 
+Memory read at 72123a706aca in function realloc matches 8-byte sequence starting at offset 2454 in fileBytes: 4c 49 42 54 49 46 46 5f 
+Memory read at 72123a706aca in function realloc matches 8-byte sequence starting at offset 2454 in fileBytes: 4c 49 42 54 49 46 46 5f 
+Memory read at 72123a6f4fbb in function _dl_rtld_di_serinfo matches 8-byte sequence starting at offset 688 in fileBytes: 8 4 4 d 88 4 0 40 
+Memory read at 72123a6f4fbb in function _dl_rtld_di_serinfo matches 8-byte sequence starting at offset 688 in fileBytes: 8 4 4 d 88 4 0 40 
+Memory read at 72123a706ac6 in function realloc matches 8-byte sequence starting at offset 2454 in fileBytes: 4c 49 42 54 49 46 46 5f 
+Memory read at 72123a706ac6 in function realloc matches 8-byte sequence starting at offset 2454 in fileBytes: 4c 49 42 54 49 46 46 5f 
+Memory read at 72123a706aca in function realloc matches 8-byte sequence starting at offset 2454 in fileBytes: 4c 49 42 54 49 46 46 5f 
+Memory read at 72123a706aca in function realloc matches 8-byte sequence starting at offset 2454 in fileBytes: 4c 49 42 54 49 46 46 5f 
+Memory read at 72123a6f4fbb in function _dl_rtld_di_serinfo matches 8-byte sequence starting at offset 680 in fileBytes: 90 10 80 8 10 21 14 b 
+Memory read at 72123a6f4fbb in function _dl_rtld_di_serinfo matches 8-byte sequence starting at offset 680 in fileBytes: 90 10 80 8 10 21 14 b 
+Memory read at 72123a7075e4 in function realloc matches 16-byte sequence starting at offset 1840 in fileBytes: 0 6c 69 62 74 69 66 66 2e 73 6f 2e 35 0 5f 49 
+Memory read at 72123a7075e4 in function realloc matches 16-byte sequence starting at offset 1840 in fileBytes: 0 6c 69 62 74 69 66 66 2e 73 6f 2e 35 0 5f 49 
+Memory read at 72123a7075e4 in function realloc matches 16-byte sequence starting at offset 1840 in fileBytes: 0 6c 69 62 74 69 66 66 2e 73 6f 2e 35 0 5f 49 
+Memory read at 72123a7075e4 in function realloc matches 16-byte sequence starting at offset 1840 in fileBytes: 0 6c 69 62 74 69 66 66 2e 73 6f 2e 35 0 5f 49 
+Memory read at 72123a707c24 in function realloc matches 16-byte sequence starting at offset 2032 in fileBytes: 69 70 0 54 49 46 46 53 65 74 46 69 65 6c 64 0 
+Memory read at 72123a707c24 in function realloc matches 16-byte sequence starting at offset 2032 in fileBytes: 69 70 0 54 49 46 46 53 65 74 46 69 65 6c 64 0 
+Memory read at 72123a707c50 in function realloc matches 16-byte sequence starting at offset 2032 in fileBytes: 69 70 0 54 49 46 46 53 65 74 46 69 65 6c 64 0 
+Memory read at 72123a707c50 in function realloc matches 16-byte sequence starting at offset 2032 in fileBytes: 69 70 0 54 49 46 46 53 65 74 46 69 65 6c 64 0 
+Memory read at 72123a707c8f in function realloc matches 16-byte sequence starting at offset 2048 in fileBytes: 54 49 46 46 57 72 69 74 65 52 61 77 54 69 6c 65 
+Memory read at 72123a707c8f in function realloc matches 16-byte sequence starting at offset 2048 in fileBytes: 54 49 46 46 57 72 69 74 65 52 61 77 54 69 6c 65 
+Memory read at 72123a706ac6 in function realloc matches 8-byte sequence starting at offset 2454 in fileBytes: 4c 49 42 54 49 46 46 5f 
+Memory read at 72123a706ac6 in function realloc matches 8-byte sequence starting at offset 2454 in fileBytes: 4c 49 42 54 49 46 46 5f 
+Memory read at 72123a706aca in function realloc matches 8-byte sequence starting at offset 2454 in fileBytes: 4c 49 42 54 49 46 46 5f 
+Memory read at 72123a706aca in function realloc matches 8-byte sequence starting at offset 2454 in fileBytes: 4c 49 42 54 49 46 46 5f 
+Finished analysis.

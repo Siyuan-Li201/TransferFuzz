@@ -1,0 +1,90 @@
+header indicates a filesize of 18446744071587863666 but filesize is 308
+<?php
+$m = new SWFMovie(16);
+
+ming_setscale(1.0);
+$m->setRate(231.945312);
+$m->setDimension(-21986, -20239);
+
+/* Note: xMin and/or yMin are not 0! */
+
+$m->setFrames(40922);
+/*Unknown block type 171*/
+/*Unknown block type 333*/
+ Stream out of sync after parse of blocktype 84 (SWF_DEFINEMORPHSHAPE2). 107 but expecting 106.
+/*Unknown block type 84*/
+
+/* SWF_DOACTION */
+$m->add(new SWFAction("") );
+
+/* SWF_DOACTION */
+$m->add(new SWFAction("") );
+ Stream out of sync after parse of blocktype 84 (SWF_DEFINEMORPHSHAPE2). 183 but expecting 139.
+/*Unknown block type 84*/
+
+/* SWF_DOACTION */
+$m->add(new SWFAction("") );
+
+/* SWF_DOACTION */
+$m->add(new SWFAction("") );
+ Stream out of sync after parse of blocktype 84 (SWF_DEFINEMORPHSHAPE2). 213 but expecting 172.
+/*Unknown block type 84*/
+
+/* SWF_DOACTION */
+$m->add(new SWFAction("") );
+
+/* SWF_DOACTION */
+$m->add(new SWFAction("") );
+
+/* SWF_DOACTION */
+$m->add(new SWFAction("") );
+
+/* SWF_DOACTION */
+$m->add(new SWFAction("") );
+ Stream out of sync after parse of blocktype 84 (SWF_DEFINEMORPHSHAPE2). 218 but expecting 215.
+/*Unknown block type 84*/
+ Stream out of sync after parse of blocktype 2 (SWF_DEFINESHAPE). 242 but expecting 217.
+
+/* SWF_DEFINESHAPE */
+
+/* Shape 768 (TYPE=1, RECT=0,0 0,0)*/
+$character768 = new SWFShape();
+/*3 fillstyle(s)*/
+/*3 linestyles(s)*/
+$character768_l0_width = 771;
+$character768_l0_red   = 0x03;
+$character768_l0_green = 0x15;
+$character768_l0_blue  = 0x15;
+$character768_l0_alpha = 0xff;
+$character768_l1_width = 5397;
+$character768_l1_red   = 0x15;
+$character768_l1_green = 0x03;
+$character768_l1_blue  = 0x03;
+$character768_l1_alpha = 0xff;
+$character768_l2_width = 771;
+$character768_l2_red   = 0x03;
+$character768_l2_green = 0x03;
+$character768_l2_blue  = 0x03;
+$character768_l2_alpha = 0xff;
+
+/* SWF_DOACTION */
+$m->add(new SWFAction("(null)") );
+
+/* SWF_DOACTION */
+$m->add(new SWFAction("") );
+
+/* SWF_DOACTION */
+$m->add(new SWFAction("") );
+ Stream out of sync after parse of blocktype 84 (SWF_DEFINEMORPHSHAPE2). 292 but expecting 252.
+/*Unknown block type 84*/
+
+/* SWF_DOACTION */
+$m->add(new SWFAction("") );
+
+/* SWF_DOACTION */
+$m->add(new SWFAction("") );
+
+/* SWF_DOACTION */
+$m->add(new SWFAction("") );
+
+/* SWF_DOACTION */
