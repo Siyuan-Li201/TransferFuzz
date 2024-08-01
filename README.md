@@ -10,8 +10,9 @@ We have enhanced the code and documentation to automate all steps:
 
 
 ## 1. Introduction
-- code: The sourcecode of TransferFuzz (The compile manual is in the ~/compilt.txt of the docker image)
-- poc: The 32 POCs of the ten CVE vulnerabilities.
+- code: The sourcecode of TransferFuzzt
+- bin: The 76 binaries used in the paper (along with two .so file).
+- poc: The 53 POCs of the 15 CVE vulnerabilities.
 
 ## 2. Reproduction of the veridied vulnerability code
 
