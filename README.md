@@ -52,9 +52,9 @@ We have enhanced the code and documentation to automate all steps:
 25. addr2line-2016-4487: addr2line -e @@ -C -f 0x3dc8
 26. addr2line-2016-4489: addr2line -e @@ -C -f 0x3dc8
 27. addr2line-2016-4490: addr2line -e @@ -C -f 0x3dc8
-28. addr2line-2016-4491: addr2line -e @@ -C -f 0x3dc8
+28. addr2line-2016-4491: addr2line -e @@ -C -f 0x0000
 29. addr2line-2016-4492: addr2line -e @@ -C -f 0x3dc8
-30. addr2line-2016-6131: addr2line -e @@ -C -f 0x3dc8
+30. addr2line-2016-6131: addr2line -e @@ -C -f 0x0000
 31. strip-2017-7303: strip -o /dev/null @@
 32. objcopy-2017-7303: objcopy @@
 33. swftophp-2017-11733: swftophp @@
