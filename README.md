@@ -134,7 +134,7 @@ Example:
 
 ```bash
 1 cd /transferfuzz/scripts/verify
-2 ./auto_verify.sh /transferfuzz/scripts/evaluation/tiffcmp-2016-10095/obj-dist/tools/tiffcmp "poc poc" ./transferfuzz/scripts/evaluation/tiffcmp-2016-10095/obj-dist/out/crashes "tif_dir.c:1056"
+2 ./auto_verify.sh /transferfuzz/scripts/evaluation/tiffcmp-2016-10095/obj-dist/tools/tiffcmp "poc poc" /transferfuzz/scripts/evaluation/tiffcmp-2016-10095/obj-dist/out/crashes "tif_dir.c:1056"
 3 cat ./result.txt
 ```
 
@@ -189,7 +189,7 @@ put the `cve-2016-10095-keybytes.txt` to `/transferfuzz/scripts/fuzz_dict/` and 
 
 ```bash
 1 cd /transferfuzz/scripts/verify
-2 ./auto_verify.sh /transferfuzz/scripts/evaluation/tiffcmp-2016-10095/obj-dist/tools/tiffcmp "poc poc" ./transferfuzz/scripts/evaluation/tiffcmp-2016-10095/obj-dist/out/crashes "tif_dir.c:1056"
+2 ./auto_verify.sh /transferfuzz/scripts/evaluation/tiffcmp-2016-10095/obj-dist/tools/tiffcmp "poc poc" /transferfuzz/scripts/evaluation/tiffcmp-2016-10095/obj-dist/out/crashes "tif_dir.c:1056"
 3. cat ./result.txt
 ```
 
