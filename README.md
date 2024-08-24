@@ -127,7 +127,7 @@ Usage:
 ```bash
 1 cd /transferfuzz/scripts/verify
 2 ./auto_verify.sh <binary_path> <command> <crash_dir> <crash_address>
-3. cat ./result.txt
+3 cat ./result.txt
 ```
 
 Example:
@@ -135,7 +135,7 @@ Example:
 ```bash
 1 cd /transferfuzz/scripts/verify
 2 ./auto_verify.sh /transferfuzz/scripts/evaluation/tiffcmp-2016-10095/obj-dist/tools/tiffcmp "poc poc" ./transferfuzz/scripts/evaluation/tiffcmp-2016-10095/obj-dist/out/crashes "tif_dir.c:1056"
-3. cat ./result.txt
+3 cat ./result.txt
 ```
 
 We use another binary *objdump* as an example too to demonstrate the usage:
