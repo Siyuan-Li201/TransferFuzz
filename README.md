@@ -91,6 +91,7 @@ TransferFuzz is built on SelectFuzz. Since SelectFuzz's Docker image is relative
 
 ```bash
 1 sudo docker pull anonymous4paper/transferfuzz
+# You need to execute "echo core >/proc/sys/kernel/core_pattern" on the host to support AFL fuzzing.
 ```
 #### 3.1.2 Build from source code （Not recommended）
 
