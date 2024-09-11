@@ -116,6 +116,7 @@ You can quickly verify the data in the paper with the following command.
 ```bash
 1 cd /transferfuzz/scripts/evaluation/
 2 ./tiffcmp-2016-10095.sh
+# When "Hamed: Finished PAG initialization..." is displayed, it may take some time (especially for a large project like binutils, which may take 10-20 minutes). This is the static analysis step of SelectFuzz, has nothing to do with the technology of this paper, and the time is acceptable.
 ```
 #### 3.2.2 Check the crashes (Auto crash classification)
 Many crashes will be generated during the fuzzing process. The *auto_verify.sh* script can be used to determine whether the expected POC is generated in the current crashes directory.
