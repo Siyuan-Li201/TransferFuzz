@@ -60,18 +60,18 @@ We have enhanced the code and documentation to automate all steps:
 33. swftophp-2017-11733: swftophp @@
 34. swftophp-2018-8807: swftophp @@
 35. swftophp-2018-8962: swftophp @@
-36. swftoperl-2017-11733: swftophp @@
-37. swftoperl-2018-8807: swftophp @@
-38. swftoperl-2018-8962: swftophp @@
-39. swftocxx-2017-11733: swftophp @@
-40. swftocxx-2018-8807: swftophp @@
-41. swftocxx-2018-8962: swftophp @@
-42. swftopython-2017-11733: swftophp @@
-43. swftopython-2018-8807: swftophp @@
-44. swftopython-2018-8962: swftophp @@
-45. swftotcl-2017-11733: swftophp @@
-46. swftotcl-2018-8807: swftophp @@
-47. swftotcl-2018-8962: swftophp @@
+36. swftoperl-2017-11733: swftoperl @@
+37. swftoperl-2018-8807: swftoperl @@
+38. swftoperl-2018-8962: swftoperl @@
+39. swftocxx-2017-11733: swftocxx @@
+40. swftocxx-2018-8807: swftocxx @@
+41. swftocxx-2018-8962: swftocxx @@
+42. swftopython-2017-11733: swftopython @@
+43. swftopython-2018-8807: swftopython @@
+44. swftopython-2018-8962: swftopython @@
+45. swftotcl-2017-11733: swftotcl @@
+46. swftotcl-2018-8807: swftotcl @@
+47. swftotcl-2018-8962: swftotcl @@
 48. libav-2018-11102: avconv -y -i @@
 49. ffmpeg-2018-11102: ffmpeg -y -i @@
 50. libjpeg-turbo-2018-20330: tjbench @@ 90
