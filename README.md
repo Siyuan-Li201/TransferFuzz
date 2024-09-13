@@ -130,6 +130,7 @@ Usage:
 1 cd /transferfuzz/scripts/verify
 2 ./auto_verify.sh <binary_path> <command> <crash_dir> <crash_address>
 3 cat ./result.txt
+# Due to different project version, some vuls automatic verification may fail. You can read the crash_report.txt and check whether the verification is successful by function sequence.
 ```
 
 Example:
@@ -207,7 +208,17 @@ put the `cve-2016-10095-keybytes.txt` to `/transferfuzz/scripts/fuzz_dict/` and 
 
 <br><br>
 
-## 5. Migrate TransferFuzz to new fuzzing technology instead of SelectFuzz
+
+## 5. Result Analysis
+
+35 of the 38 new vuls in the paper were successful. The main reasons for the unverifiable vulnerabilities are as follows (also introduced in the paper):
+
+- Existing methods are prototypes and require additional engineering efforts, such as in-process instrumentation, to adapt to more software..
+- Some vulnerabilities are difficult to trigger by fuzzing, and there are no key bytes to bypass the conditional branch.
+
+<br><br>
+
+## 6. Migrate TransferFuzz to new fuzzing technology instead of SelectFuzz
 
 We use macro definitions in `/code` to wrap all the code that needs to be modified.
 
