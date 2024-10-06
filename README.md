@@ -211,10 +211,17 @@ put the `cve-2016-10095-keybytes.txt` to `/transferfuzz/scripts/fuzz_dict/` and 
 
 ## 5. Result Analysis
 
-35 of the 38 new vuls in the paper were successful. The main reasons for the unverifiable vulnerabilities are as follows (also introduced in the paper):
+35 of the 38 new vuls in the paper were successful. In addition to the three unverified vulnerabilities presented in the paper, we also discovered two others (CVE-2022-34526 and CVE-2017-9147) that also could not be verified. 
+We analyzed these bad cases to inform future research. The main reasons for the unverifiable vulnerabilities are as follows:
 
-- Existing methods are prototypes and require additional engineering efforts, such as in-process instrumentation, to adapt to more software..
-- Some vulnerabilities are difficult to trigger by fuzzing, and there are no key bytes to bypass the conditional branch.
+- Existing methods are prototypes and require additional engineering efforts, such as in-process instrumentation, to adapt to more software (For three unverified vulnerabilities presented in the paper).
+- Some vulnerabilities are difficult to trigger by fuzzing, and there are no key bytes to bypass the conditional branch (For CVE-2022-34526 and CVE-2017-9147).
+
+<br><br>
+
+## 6. Extra Bad Case Analysis
+
+
 
 <br><br>
 
