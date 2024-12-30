@@ -1,6 +1,11 @@
 # TransferFuzz
 The code and dataset of the paper are at [https://github.com/Siyuan-Li201/TransferFuzz](https://github.com/Siyuan-Li201/TransferFuzz).
 
+We introduce TransferFuzz, a novel vulnerability verification framework, to verify whether vulnerabilities propagated through code reuse can be triggered in new software. 
+
+- Input: A fuzz driver script of the target binary. A basic binary with PoC.
+- Output: The PoCs of the target binary.
+
 We have enhanced the code and documentation to automate all steps:
 
 - **Function-level Trace Extraction**. We wrote Python scripts to automate calls to GDB to extract function call stacks after crashes.
