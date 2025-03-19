@@ -18,7 +18,7 @@ We have enhanced the code and documentation to automate all steps:
 ## 1. Introduction
 - code: The sourcecode of TransferFuzzt
 - bin: The 76 binaries used in the paper (along with two .so file). Since Git LFS is not easily accessible, you can download all binaries from [bin](https://drive.google.com/file/d/1TU1o0J5mpTFPEo-683DP01fV2IcrM_Hm/view?usp=sharing) here.
-- poc: The 53 POCs of the 15 CVE vulnerabilities. Since Git LFS is not easily accessible, you can download all POCs from [poc](https://drive.google.com/file/d/19Zlpxk34BqClaKG8L90RwYdMViQjL0ky/view?usp=sharing) here.
+- poc: The 53 POCs of the 15 CVE vulnerabilities.
 
 <br><br>
 
