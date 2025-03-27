@@ -178,7 +178,7 @@ Put the basic binary and poc into the directory `./bin/` and `./poc/` (The basic
 
 ```bash
 1 cd /transferfuzz/scripts/keybytes_trace
-2 pin -t ./taint_test.so -i ./poc/tiffsplit-2016-10095-poc -v TIFFGetField -- ./bin/tiffsplit ./poc/tiffsplit-2016-10095-poc
+2 pin -t ./taint_test.so -i ./poc/tiffsplit-2016-10095-poc -v tiffcp -- ./bin/tiffsplit ./poc/tiffsplit-2016-10095-poc
 3 python3 get_fuzz_dict.py ./taint_trace.out ./cve-2016-10095-keybytes.txt
 ```
 
