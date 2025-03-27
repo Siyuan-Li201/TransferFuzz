@@ -9,7 +9,7 @@ We introduce TransferFuzz, a novel vulnerability verification framework, to veri
 We have enhanced the code and documentation to automate all steps:
 
 - **Function-level Trace Extraction**. We wrote Python scripts to automate calls to GDB to extract function call stacks after crashes.
-- **Key-bytes Trace Extraction**. We use PIN \cite{pin} for taint analysis and judge whether tainted bytes come directly from POC bytes.
+- **Key-bytes Trace Extraction**. We use PIN for taint analysis and judge whether tainted bytes come directly from POC bytes.
 - **Trace Guided Fuzzing**: We wrap the modified code parts in macro definitions, enabling easy migration to new fuzzing technologies.
 - **Crash Classification**. We wrote a shell script to automatically determine whether the fuzzing process is finished by viewing the crash address through GDB.
 
@@ -178,7 +178,7 @@ Put the basic binary and poc into the directory `./bin/` and `./poc/` (The basic
 
 ```bash
 1 cd /transferfuzz/scripts/keybytes_trace
-2 pin -t ./taint_test.so -i ./poc/tiffsplit-2016-10095-poc -v tiffcp -- ./bin/tiffsplit ./poc/tiffsplit-2016-10095-poc
+2 pin -t ./taint_test.so -i ./poc/tiffsplit-2016-10095-poc -v TIFFGetField -- ./bin/tiffsplit ./poc/tiffsplit-2016-10095-poc
 3 python3 get_fuzz_dict.py ./taint_trace.out ./cve-2016-10095-keybytes.txt
 ```
 
